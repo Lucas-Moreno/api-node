@@ -19,8 +19,8 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 require("./src/routes/routes.js")(app)
 
-// set port, listen for requests
-const PORT = process.env.PORT || 3000;
+// set port, listen for requestsxs
+const PORT = process.env.PORT || 3000
 app.listen(PORT, err => {
     if(err) throw err;
   console.log(`Server is running on port ${PORT}.`)
